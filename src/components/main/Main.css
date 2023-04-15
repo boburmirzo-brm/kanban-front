@@ -5,11 +5,15 @@
     margin: auto;
     padding: 30px;
     border-radius: 15px;
-    overflow: auto;
 }
 .main__title{
     color: var(--bg-py);
     margin-bottom: 16px;
+}
+.main__wrapper{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
 }
 .main__content{
     width: 1140px;
@@ -29,6 +33,10 @@
 }
 .main__item::-webkit-scrollbar{
     width: 0;
+}
+.main__column{
+    height: 100%;
+    border: 1px solid transparent;
 }
 .main__item-title{
     text-align: center;
@@ -68,7 +76,7 @@
 .main__box{
     margin: 8px;
     box-shadow: 0 0 5px #0002;
-    background: #fff;
+    background: #e2eff3;
     padding: 8px;
     border-radius: 4px;
 }
