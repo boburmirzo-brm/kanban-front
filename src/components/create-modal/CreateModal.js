@@ -20,7 +20,7 @@ function CreateModal({setModal, setRefresh}) {
   const handleSubmit = (e)=>{
     e.preventDefault()
     setLoading(true)
-    axios.post("/posts", state)
+    axios.post("/posts", {...state, id: uuidv4()})
       .then(res=> {
         console.log(res)
         setModal(false)
