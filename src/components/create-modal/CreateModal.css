@@ -1,0 +1,52 @@
+.create_modal-shadow{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 11;
+    background: #0002;
+    backdrop-filter: blur(2px);
+}
+.create__modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    z-index: 12;
+}
+.create__modal h3{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    color: var(--bg-py);
+}
+.create__modal label{
+    display: block;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.create__modal input,
+.create__modal textarea{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+.create__modal input{
+    height: 34px;
+    text-indent: 10px;
+}
+.create__modal textarea{
+    resize: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.create__modal-btns {
+    display: flex;
+    gap: 10px;
+}
